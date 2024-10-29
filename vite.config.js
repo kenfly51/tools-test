@@ -17,7 +17,7 @@ export default defineConfig({
       entry: "./src/component.jsx",
       name: "ReactMicroFrontend",
       fileName: () => `main.js`,
-      formats: ["es"], // Ensure it outputs in ES Module format
+      formats: ["iife"], // Ensure it outputs in ES Module format
     },
     rollupOptions: {
       output: {
